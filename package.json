@@ -1,0 +1,18 @@
+{
+  "name": "node_telegram_bot",
+  "version": "1.0.0",
+  "description": "it is a backend for a telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "https": "^1.0.0",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
